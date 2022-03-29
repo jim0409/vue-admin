@@ -9,9 +9,6 @@
           <va-tab name="OverviewTab">
             {{$t('dashboard.tabs.overview.title')}}
           </va-tab>
-          <va-tab name="BillingAddressTab">
-            {{$t('dashboard.tabs.billingAddress.title')}}
-          </va-tab>
           <va-tab name="BankDetailsTab">
             {{$t('dashboard.tabs.bankDetails.title')}}
           </va-tab>
@@ -25,22 +22,18 @@
 
 <script>
 import OverviewTab from './dashboard-tabs/OverviewTab'
-import BillingAddressTab from './dashboard-tabs/BillingAddressTab'
 import BankDetailsTab from './dashboard-tabs/BankDetailsTab'
 
 export default {
   name: 'DashboardTabs',
   components: {
     OverviewTab,
-    BillingAddressTab,
     BankDetailsTab,
   },
   data () {
     return {
-      activeTabName: 'BillingAddressTab',
       tabs: [
         'OverviewTab',
-        'BillingAddressTab',
         'BankDetailsTab',
       ],
     }

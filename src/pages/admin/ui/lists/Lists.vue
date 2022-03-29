@@ -178,44 +178,6 @@
             </va-list-item>
           </va-list>          
         </va-card>
-
-        <va-card>
-          <va-list>
-            <va-list-label>
-              {{ $t('lists.routerSupport') }}
-            </va-list-label>
-
-            <va-list-item :to="{ name: 'google-maps' }">
-              <va-list-item-section icon>
-                <va-icon name="google" color="red" />
-              </va-list-item-section>
-
-              <va-list-item-section>
-                <va-list-item-label>Google Maps</va-list-item-label>
-              </va-list-item-section>
-            </va-list-item>
-
-            <va-list-item :to="{ name: 'yandex-maps' }">
-              <va-list-item-section icon>
-                <va-icon name="map" color="red" />
-              </va-list-item-section>
-
-              <va-list-item-section>
-                <va-list-item-label>Yandex Maps</va-list-item-label>
-              </va-list-item-section>
-            </va-list-item>
-
-            <va-list-item :to="{ name: 'leaflet-maps' }">
-              <va-list-item-section icon>
-                <va-icon name="map_marker" color="red" />
-              </va-list-item-section>
-
-              <va-list-item-section>
-                <va-list-item-label>Leaflet Maps</va-list-item-label>
-              </va-list-item-section>
-            </va-list-item>
-          </va-list>          
-        </va-card>
       </div>
     </div>
   </div>
