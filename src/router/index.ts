@@ -4,7 +4,6 @@ import AppLayout from '@/layout/app-layout.vue'
 import Page404Layout from '@/layout/page-404-layout.vue'
 
 import RouteViewComponent from './route-view.vue'
-import UIRoute from '@/pages/admin/ui/route'
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -107,7 +106,6 @@ const routes: Array<RouteRecordRaw> = [
           },
         ],
       },
-      UIRoute,
     ]
   },
   {
