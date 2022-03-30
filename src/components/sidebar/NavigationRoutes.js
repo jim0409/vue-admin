@@ -64,27 +64,5 @@ export default {
         // },
       ],
     },
-    {
-      name: 'pages',
-      displayName: 'menu.pages',
-      meta: {
-        icon: 'vuestic-iconset-files',
-      },
-      disabled: true,
-      children: [
-        {
-          name: 'login',
-          displayName: 'menu.login-singup',
-        },
-        {
-          name: '404-pages',
-          displayName: 'menu.404-pages',
-        },
-        {
-          name: 'faq',
-          displayName: 'menu.faq',
-        },
-      ],
-    },
   ],
 }
