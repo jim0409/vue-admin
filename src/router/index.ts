@@ -19,29 +19,6 @@ const routes: Array<RouteRecordRaw> = [
         component: () => import('@/pages/admin/dashboard/Dashboard.vue'),
       },
       {
-        name: 'statistics',
-        path: 'statistics',
-        component: RouteViewComponent,
-        children: [
-          {
-            name: 'charts',
-            path: 'charts',
-            component: () => import('@/pages/admin/statistics/charts/Charts.vue'),
-            meta: {
-              wikiLink: 'https://github.com/epicmaxco/vuestic-admin/wiki/Charts',
-            },
-          },
-          {
-            name: 'progress-bars',
-            path: 'progress-bars',
-            component: () => import('@/pages/admin/statistics/progress-bars/ProgressBars.vue'),
-            meta: {
-              wikiLink: 'https://github.com/epicmaxco/vuestic-admin/wiki/Progress-Bars',
-            },
-          },
-        ],
-      },
-      {
         name: 'forms',
         path: 'forms',
         component: RouteViewComponent,
@@ -52,14 +29,6 @@ const routes: Array<RouteRecordRaw> = [
             component: () => import('@/pages/admin/forms/form-elements/FormElements.vue'),
             meta: {
               wikiLink: 'https://github.com/epicmaxco/vuestic-admin/wiki/inputs',
-            },
-          },
-          {
-            name: 'medium-editor',
-            path: 'medium-editor',
-            component: () => import('@/pages/admin/forms/medium-editor/MediumEditor.vue'),
-            meta: {
-              wikiLink: 'https://github.com/epicmaxco/vuestic-admin/wiki/Medium-Editor',
             },
           },
         ],

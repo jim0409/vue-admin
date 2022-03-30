@@ -6,16 +6,12 @@
 </template>
 
 <script>
-import DashboardCharts from './DashboardCharts'
 import DashboardInfoBlock from './DashboardInfoBlock'
-// import DashboardTabs from './DashboardTabs'
 
 export default {
   name: 'dashboard',
   components: {
-    DashboardCharts,
     DashboardInfoBlock,
-    // DashboardTabs,
   },
 }
 </script>
