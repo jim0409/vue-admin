@@ -13,11 +13,9 @@ const i18nConfig = {
   locale: 'en',
   fallbackLocale: 'en',
   messages: {
+    // 目前僅支持 英文 及 中文
     en: require('@/i18n/en.json'),
-    cn: require('@/i18n/cn.json'),
-    es: require('@/i18n/es.json'),
-    ir: require('@/i18n/ir.json'),
-    br: require('@/i18n/br.json')
+    cn: require('@/i18n/cn.json')
   }
 }
 

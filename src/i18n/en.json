@@ -280,11 +280,8 @@
     "poweredBy": "Powered by"
   },
   "language": {
-    "brazilian_portuguese": "Português",
     "english": "English",
-    "spanish": "Spanish",
-    "simplified_chinese": "Simplified Chinese",
-    "persian": "Persian"
+    "simplified_chinese": "Simplified Chinese"
   },
   "menu": {
     "auth": "Auth",
