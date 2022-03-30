@@ -58,10 +58,6 @@ export default {
           name: 'markup',
           displayName: 'menu.markupTables',
         },
-        // {
-        //   name: 'data',
-        //   displayName: 'menu.dataTables',
-        // },
       ],
     },
   ],

@@ -11,7 +11,9 @@
 
 <script>
 import { useGlobalConfig } from 'vuestic-ui';
+// SideBar 展開後要呈現的畫面
 import MenuAccordion from './menu/MenuAccordion.vue';
+// SideBar 隱藏後要呈現的畫面
 import MenuMinimized from './menu/MenuMinimized.vue';
 import NavigationRoutes from './NavigationRoutes';
 
