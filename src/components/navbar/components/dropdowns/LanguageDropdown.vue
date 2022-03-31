@@ -43,8 +43,8 @@ export default {
           name: 'english',
         },
         {
-          code: 'cn',
-          name: 'simplified_chinese',
+          code: 'tw',
+          name: 'mandarin',
         },
       ],
     },

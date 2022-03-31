@@ -18,21 +18,7 @@ const routes: Array<RouteRecordRaw> = [
         path: 'dashboard',
         component: () => import('@/pages/admin/dashboard/Dashboard.vue'),
       },
-      {
-        name: 'forms',
-        path: 'forms',
-        component: RouteViewComponent,
-        children: [
-          {
-            name: 'form-elements',
-            path: 'form-elements',
-            component: () => import('@/pages/admin/forms/form-elements/FormElements.vue'),
-            meta: {
-              wikiLink: 'https://github.com/epicmaxco/vuestic-admin/wiki/inputs',
-            },
-          },
-        ],
-      },
+      // 提供額外的 vue-router 路徑，加在這邊~
       {
         name: 'tables',
         path: 'tables',
@@ -42,14 +28,6 @@ const routes: Array<RouteRecordRaw> = [
             name: 'markup',
             path: 'markup',
             component: () => import('@/pages/admin/tables/markup-tables/MarkupTables.vue'),
-            meta: {
-              wikiLink: 'https://github.com/epicmaxco/vuestic-admin/wiki/Tables',
-            },
-          },
-          {
-            name: 'data',
-            path: 'data',
-            component: () => import('@/pages/admin/tables/data-tables/DataTables.vue'),
             meta: {
               wikiLink: 'https://github.com/epicmaxco/vuestic-admin/wiki/Tables',
             },

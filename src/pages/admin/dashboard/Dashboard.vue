@@ -1,6 +1,6 @@
 <template>
   <div class="dashboard">
-    <dashboard-charts />
+    <!-- add extra dashboard content here -->
     <dashboard-info-block />
   </div>
 </template>

@@ -15,7 +15,7 @@ const i18nConfig = {
   messages: {
     // 目前僅支持 英文 及 中文
     en: require('@/i18n/en.json'),
-    cn: require('@/i18n/cn.json')
+    tw: require('@/i18n/tw.json')
   }
 }
 

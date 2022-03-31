@@ -11,20 +11,7 @@ export default {
         icon: 'vuestic-iconset-dashboard',
       },
     },
-    {
-      name: 'forms',
-      displayName: 'menu.forms',
-      meta: {
-        icon: 'vuestic-iconset-forms',
-      },
-      disabled: true,
-      children: [
-        {
-          name: 'form-elements',
-          displayName: 'menu.formElements',
-        },
-      ],
-    },
+    // 要增加新的 side bar 項目，從這邊下手~
     {
       name: 'tables',
       displayName: 'menu.tables',
