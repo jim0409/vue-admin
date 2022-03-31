@@ -12,28 +12,6 @@
     "termsOfUse": "Terms of Use.",
     "reset_password": "Reset password"
   },
-  "404": {
-    "title": "This page’s gone fishing.",
-    "text": "If you feel that it’s not right, please send us a message at ",
-    "back_button": "Back to dashboard"
-  },
-  "rating": {
-    "singleIcon": "Single Icon",
-    "twoIcons": "Two Icons",
-    "large": "Large",
-    "numbers": "Numbers",
-    "halves": "Halves",
-    "small": "Small"
-  },
-  "typography": {
-    "primary": "Primary text styles",
-    "secondary": "Secondary text styles"
-  },
-  "colorPickers": {
-    "simple": "Simple",
-    "slider": "Slider",
-    "advanced": "Advanced"
-  },
   "buttons": {
     "advanced": "Buttons With Icons",
     "size": "Button Sizes",
@@ -67,14 +45,6 @@
     "warning": "Warning",
     "gray": "Gray",
     "dark": "Dark"
-  },
-  "charts": {
-    "horizontalBarChart": "Horizontal Bar Chart",
-    "verticalBarChart": "Vertical Bar Chart",
-    "lineChart": "Line Chart",
-    "pieChart": "Pie Chart",
-    "donutChart": "Donut Chart",
-    "bubbleChart": "Bubble Chart"
   },
   "collapse": {
     "basic": "Basic Collapse",
@@ -179,40 +149,6 @@
     "navigationLayout": "navigation layout",
     "topBarButton": "Top Bar",
     "sideBarButton": "Side Bar"
-  },
-  "notificationsPage": {
-    "notifications": {
-      "title": "Notifications",
-      "gray": "Processing",
-      "dark": "New Label",
-      "success": "Paid",
-      "successMessage": "You successfully read this important alert message.",
-      "info": "Info",
-      "infoMessage": "This alert needs your attention, but it's not super important.",
-      "warning": "On Hold",
-      "warningMessage": "Better check yourself, you're not looking too good.",
-      "danger": "Danger",
-      "dangerMessage": "Change a few things up and try submitting again."
-    },
-    "popovers": {
-      "title": "Tooltips & Popovers",
-      "popoverTitleLabel": "Popover Title",
-      "popoverTextLabel": "Popover Text",
-      "popoverIconLabel": "Popover Icon (fontawesome)",
-      "showPopover": "Show Popover",
-      "topTooltip": "top",
-      "rightTooltip": "rightside",
-      "leftTooltip": "left",
-      "bottomTooltip": "below"
-    },
-    "toasts": {
-      "title": "Toasts",
-      "textLabel": "Text",
-      "durationLabel": "Duration (milliseconds)",
-      "iconLabel": "Icon (fontawesome)",
-      "fullWidthLabel": "Fullwidth",
-      "launchToast": "Launch toast"
-    }
   },
   "forms": {
     "controls": {

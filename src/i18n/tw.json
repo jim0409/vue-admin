@@ -21,14 +21,6 @@
     "pressed": "按下",
     "small": "小的"
   },
-  "charts": {
-    "horizontalBarChart": "横条图",
-    "verticalBarChart": "纵条图",
-    "lineChart": "线形图",
-    "pieChart": "饼图",
-    "donutChart": "环形图",
-    "bubbleChart": "气泡图"
-  },
   "collapse": {
     "accordion": "Accordion",
     "buttons": "按钮"
@@ -38,38 +30,18 @@
     "successMessage": "您已成功阅读此重要通知。",
     "elements": "元素",
     "teamMembers": "团队成员",
-    "versions": "版本"
-  },
-  "notificationsPage": {
-    "alerts": {
-      "title": "警报",
-      "success": "成功",
-      "successMessage": "您已成功阅读此重要警报消息。",
-      "info": "信息",
-      "infoMessage": "此警报需要您的注意，但这并不是特别重要。",
-      "warning": "警告",
-      "warningMessage": "最好检查一下，现在状态好像不太好。",
-      "danger": "危险",
-      "dangerMessage": "请更改一些内容并尝试再次提交。"
-    },
-    "popovers": {
-      "title": "工具提示和弹出框",
-      "popoverTitleLabel": "弹出框的标题",
-      "popoverTextLabel": "弹出框的内容",
-      "popoverIconLabel": "弹出框的图标（fontAwesome）",
-      "showPopover": "显示弹出框",
-      "topTooltip": "上侧提示",
-      "rightTooltip": "右侧提示",
-      "leftTooltip": "左侧提示",
-      "bottomTooltip": "下侧提示"
-    },
-    "toasts": {
-      "title": "提示框",
-      "textLabel": "提示文本",
-      "durationLabel": "持续时间（毫秒）",
-      "iconLabel": "图标（fontAwesome）",
-      "fullWidthLabel": "全宽",
-      "launchToast": "加载提示框"
+    "versions": "版本",
+    "info": {
+      "componentRichTheme": "豐富的套件",
+      "completedPullRequests": "下載使用次數",
+      "users": "使用者",
+      "points": "點",
+      "units": "單位",
+      "exploreGallery": "發覺畫廊",
+      "viewLibrary": "查看套件",
+      "commits": "提交",
+      "components": "元素",
+      "teamMembers": "團隊成員"
     }
   },
   "forms": {
@@ -165,6 +137,7 @@
     "signUp": "注册",
     "statistics": "统计",
     "tables": "表格",
+    "markupTables": "標記資料",
     "tags": "标签",
     "typography": "段落",
     "treeView": "树视图",

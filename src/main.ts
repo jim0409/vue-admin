@@ -10,7 +10,7 @@ import vuesticGlobalConfig from './services/vuestic-ui/global-config'
 
 
 const i18nConfig = {
-  locale: 'en',
+  locale: 'tw',
   fallbackLocale: 'en',
   messages: {
     // 目前僅支持 英文 及 中文
