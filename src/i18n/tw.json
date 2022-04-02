@@ -1,35 +1,35 @@
 {
   "auth": {
     "agree": "我同意",
-    "createAccount": "创建账号",
-    "createNewAccount": "创建新账号",
-    "email": "电子邮箱",
-    "login": "登录",
-    "password": "密码",
-    "signUp": "注册",
-    "termsOfUse": "使用条款"
+    "createAccount": "創建帳號",
+    "createNewAccount": "創建新帳號",
+    "email": "電子郵箱",
+    "login": "登入",
+    "password": "密碼",
+    "signUp": "註冊",
+    "termsOfUse": "使用條款"
   },
   "buttons": {
-    "advanced": "图标、组、下拉菜单",
-    "button": "按钮",
-    "colors": "颜色",
+    "advanced": "圖標、組、下拉菜單",
+    "button": "按鈕",
+    "colors": "顏色",
     "disabled": "禁用",
-    "dropdown": "下拉菜单",
-    "hover": "悬停状态",
-    "main": "主按钮和辅助按钮",
+    "dropdown": "下拉菜單",
+    "hover": "懸停狀態",
+    "main": "主按鈕和輔助按鈕",
     "micro": "微型的",
     "pressed": "按下",
     "small": "小的"
   },
   "collapse": {
-    "accordion": "Accordion",
-    "buttons": "按钮"
+    "accordion": "依據",
+    "buttons": "按鈕"
   },
   "dashboard": {
     "success": "成功",
-    "successMessage": "您已成功阅读此重要通知。",
+    "successMessage": "您已成功閱讀此重要通知。",
     "elements": "元素",
-    "teamMembers": "团队成员",
+    "teamMembers": "團隊成員",
     "versions": "版本",
     "info": {
       "componentRichTheme": "豐富的套件",
@@ -48,101 +48,101 @@
     "controls": {
       "female": "女",
       "male": "男",
-      "title": "复选框，单选框，开关",
-      "radioDisabled": "禁用的单选框",
-      "radio": "单选框",
-      "subscribe": "订阅消息",
-      "unselected": "未选中的复选框",
-      "selected": "选中的复选框",
-      "readonly": "只读的复选框",
-      "disabled": "禁用的复选框",
-      "error": "错误状态的复选框",
-      "errorMessage": "带错误信息的复选框"
+      "title": "複選框，單選框，開關",
+      "radioDisabled": "禁用的單選框",
+      "radio": "單選框",
+      "subscribe": "訂閱消息",
+      "unselected": "未選種的複選框",
+      "selected": "選中的複選框",
+      "readonly": "只讀的複選框",
+      "disabled": "禁用的複選框",
+      "error": "錯誤狀態的複選框",
+      "errorMessage": "帶錯誤信息的複選框"
     },
     "dateTimePicker": {
-      "title": "日期时间选择器",
+      "title": "日期時間選擇器",
       "basic": "基本的",
-      "time": "时间",
-      "range": "范围",
+      "time": "時間",
+      "range": "範圍",
       "multiple": "多重的",
       "disabled": "禁用",
-      "customFirstDay": "自定义起始日",
-      "customDateFormat": "自定义日期格式"
+      "customFirstDay": "自定義起始日",
+      "customDateFormat": "自定義日期格式"
     },
     "inputs": {
-      "emailValidatedSuccess": "电子邮件（验证成功）",
-      "emailValidated": "电子邮件（验证失败）",
-      "inputWithIcon": "带图标的输入框",
-      "inputWithButton": "带按钮的输入框",
-      "inputWithClearButton": "带清空图标的输入框",
-      "inputWithRoundButton": "带圆形按钮的输入框",
-      "textInput": "文本输入",
-      "textInputWithDescription": "文本输入（带说明）",
+      "emailValidatedSuccess": "電子郵件(驗證成功)",
+      "emailValidated": "電子郵件(驗證失敗)",
+      "inputWithIcon": "帶圖標地輸入框",
+      "inputWithButton": "帶按鈕的輸入框",
+      "inputWithClearButton": "帶清空圖的輸入框",
+      "inputWithRoundButton": "帶圖形按鈕的輸入框",
+      "textInput": "文本輸入",
+      "textInputWithDescription": "文本輸入(帶說明)",
       "textArea": "多行文本框",
-      "title": "输入框",
-      "upload": "上传"
+      "title": "輸入框",
+      "upload": "上傳"
     },
     "mediumEditor": {
-      "title": "Medium 编辑器"
+      "title": "Medium 編輯器"
     },
     "selects": {
-      "country": "国家选择框",
-      "countryMulti": "国家多选框",
-      "multi": "多选框",
-      "simple": "单选框",
-      "title": "选择框"
+      "country": "國家選擇框",
+      "countryMulti": "國家多選框",
+      "multi": "多選框",
+      "simple": "單選框",
+      "title": "選擇框"
     }
   },
   "grid": {
-    "desktop": "桌面网格",
-    "fixed": "固定网格",
+    "desktop": "桌面網格",
+    "fixed": "固定網格",
     "offsets": "偏移量",
-    "responsive": "响应网格"
+    "responsive": "響應網格"
   },
   "icons": {
-    "back": "回退图标",
-    "none": "没找到图标",
-    "search": "图标搜索",
-    "title": "图标"
+    "back": "回退圖標",
+    "none": "沒找到圖標",
+    "search": "圖標搜索",
+    "title": "圖標"
   },
   "spinners": {
     "title": "Spinners",
-    "poweredBy": "技术支持"
+    "poweredBy": "技術支持"
   },
   "language": {
     "english": "英文",
     "mandarin": "中文"
   },
   "menu": {
-    "auth": "授权",
-    "buttons": "按钮",
-    "charts": "图表",
-    "colorPickers": "颜色选择器",
-    "collapse": "折叠器",
-    "timelines": "时间线",
-    "dashboard": "仪表板",
-    "formElements": "表单元素",
-    "forms": "表单",
+    "auth": "授權",
+    "buttons": "按鈕",
+    "charts": "圖表",
+    "colorPickers": "顏色選擇器",
+    "collapse": "折疊器",
+    "timelines": "時間線",
+    "dashboard": "儀表板",
+    "formElements": "表單元素",
+    "forms": "表單",
     "mediumEditor": "Medium Editor",
-    "grid": "网格",
-    "icons": "图标",
+    "grid": "網格",
+    "icons": "圖標",
     "cards": "卡片",
     "spinners": "Spinners",
-    "login": "登录",
-    "maps": "地图",
-    "pages": "页面",
-    "modals": "模态对话框",
+    "login": "登錄",
+    "maps": "地圖",
+    "pages": "頁面",
+    "modals": "模態對話框",
     "notifications": "通知",
-    "progressBars": "进度条",
-    "signUp": "注册",
-    "statistics": "统计",
+    "progressBars": "進度條",
+    "signUp": "註冊",
+    "statistics": "統計",
     "tables": "表格",
     "markupTables": "標記資料",
-    "tags": "标签",
+    "tags": "標籤",
     "typography": "段落",
-    "treeView": "树视图",
-    "dateTimePickers": "日期时间选择器",
-    "fileUpload": "文件上传",
+    "treeView": "樹視圖",
+    "dateTimePickers": "日期時間選擇器",
+    "fileUpload": "文件上傳",
     "chat": "聊天"
   },
   "messages": {
@@ -170,123 +170,8 @@
     "note": "注意",
     "noteText": "如果屏幕上有足够的空间，下拉框将按指定方向打开，否则方向将自动更改"
   },
-  "fileUpload": {
-    "advancedMediaGallery": "高级，媒体库",
-    "advancedUploadList": "高级，上传列表",
-    "mediaGallery": "媒体库",
-    "uploadList": "上传列表",
-    "single": "单独",
-    "dragNdropFiles": "拖放文件，或者",
-    "uploadedOn": "已上传",
-    "fileDeleted": "文件已成功删除",
-    "undo": "复原",
-    "preview": "预览",
-    "delete": "删除",
-    "deleteFile": "删除文件",
-    "uploadFile": "上传文件",
-    "uploadMedia": "上传媒体文件",
-    "addAttachment": "添加附件",
-    "modalTitle": "文件验证",
-    "modalText": "文件类型不正确！"
-  },
-  "tags": {
-    "default": "默认的",
-    "removable": "可移除",
-    "colored": "彩色的"
-  },
   "navbar": {
     "messageUs": "官方網站:",
     "repository": "官方聯繫方式"
-  },
-  "notifications": {
-    "all": "查看所有通知",
-    "sentMessage": "{name} 给你发了一条消息",
-    "uploadedZip": "{name} 上传了一个新的Zip文件 {type}",
-    "startedTopic": "{name} 开始了一个新话题"
-  },
-  "timelines": {
-    "horizontalSimple": "水平简单",
-    "horizontalCards": "水平卡片",
-    "verticalSimple": "垂直简单",
-    "verticalLabel": "垂直带标签",
-    "verticalCentered": "垂直居中",
-    "firstDate": "2018年2月",
-    "secondDate": "2018年3月",
-    "thirdDate": "2018年4月",
-    "cardsSecondInfo": "它们存在于各种栖息地，比如草原。",
-    "cardsThirdInfo": "然而，各种人为因素对斑马种群产生了严重影响",
-    "verticalSimpleCardsFirstInfo": "独特的斑马条纹使它们成为人们最熟悉的动物之一。 它们出现在各种栖息地，如草原，热带稀树草原，林地，棘手的灌木丛中。",
-    "verticalSimpleCardsSecondInfo": "然而，各种人为因素对斑马种群产生了严重影响"
-  },
-  "progressBars": {
-    "basic": "基本的",
-    "basicVertical": "基本垂直",
-    "circle": "圆形",
-    "colorFulTitle": "彩色条型",
-    "thin": "窄型",
-    "thinVertical": "垂直窄型",
-    "thick": "宽型",
-    "title": "进度条"
-  },
-  "tables": {
-    "basic": "基本表格",
-    "styled": "颜色，图标，标签",
-    "advanced": "搜索和分页",
-    "headings": {
-      "city": "城市",
-      "email": "电子邮箱",
-      "name": "姓名",
-      "score": "分数"
-    },
-    "dataTable": {
-      "noDataAvailable": "无可用数据"
-    }
-  },
-  "user": {
-    "language": "修改语言",
-    "logout": "注销",
-    "profile": "个人信息"
-  },
-  "treeView": {
-    "basic": "基本型",
-    "icons": "图标",
-    "selectable": "可选择",
-    "editable": "可编辑",
-    "advanced": "高级"
-  },
-  "chat": {
-    "title": "聊天"
-  },
-  "cards": {
-    "cards": "卡片",
-    "fixed": "固定的",
-    "floating": "浮动的",
-    "contentText": "独特的斑马条纹使它们成为人们最熟悉的动物之一。",
-    "rowHeight": "行高",
-    "title": {
-      "dark": "暗色背景",
-      "bright": "亮色卡片",
-      "titleOnImageNoOverlay": "图像上的标题，但没有叠加",
-      "normal": "标准卡",
-      "overlayAndTextOnImage": "图像上有覆盖和文本的卡片",
-      "stripeNoImage": "无图像条纹卡"
-    },
-    "button": {
-      "main": "主要",
-      "cancel": "取消"
-    },
-    "link": {
-      "edit": "编辑",
-      "setAsDefault": "设为默认",
-      "delete": "删除",
-      "traveling": "Traveling",
-      "france": "法国",
-      "review": "评论",
-      "feedback": "反馈信息",
-      "readFull": "阅读全文",
-      "secondaryAction": "第二行为",
-      "action1": "行为 1",
-      "action2": "行为 2"
-    }
   }
 }
