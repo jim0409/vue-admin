@@ -33,6 +33,23 @@ const routes: Array<RouteRecordRaw> = [
             },
           },
         ]
+      },
+      {
+        name: 'tables2',
+        path: 'tables2',
+        component: RouteViewComponent,
+        children: [
+          {
+            name: 'markup2',
+            path: 'markup2',
+            component: () => import('@/pages/admin/tables/markup-tables/MarkupTables.vue'),
+          },
+          {
+            name: 'markup3',
+            path: 'markup3',
+            component: () => import('@/pages/admin/tables/markup-tables/MarkupTables.vue'),
+          },
+        ]
       }
     ]
   }
