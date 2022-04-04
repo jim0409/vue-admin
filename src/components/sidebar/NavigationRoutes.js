@@ -20,27 +20,14 @@ export default {
       },
       children: [
         {
-          name: 'markup',
+          name: 'table',
+          displayName: 'menu.markupTables',
+        },
+        {
+          name: 'table2',
           displayName: 'menu.markupTables',
         },
       ],
     },
-    {
-      name: 'tables2',
-      displayName: 'menu.tables',
-      meta: {
-        icon: 'vuestic-iconset-tables',
-      },
-      children: [
-        {
-          name: 'markup2',
-          displayName: 'menu.markupTables',
-        },
-        {
-          name: 'markup3',
-          displayName: 'menu.markupTables',
-        },
-      ],
-    },
-  ],
+  ]
 }

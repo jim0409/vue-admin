@@ -17,39 +17,23 @@ const routes: Array<RouteRecordRaw> = [
         name: 'dashboard',
         path: 'dashboard',
         component: () => import('@/pages/admin/dashboard/Dashboard.vue'),
-      },
-      // 提供額外的 vue-router 路徑，加在這邊~
+      }
+    ]
+  },
+  {
+    name: 'tables',
+    path: '/tables',
+    component: AppLayout,
+    children: [
+
       {
-        name: 'tables',
-        path: 'tables',
-        component: RouteViewComponent,
-        children: [
-          {
-            name: 'markup',
-            path: 'markup',
-            component: () => import('@/pages/admin/tables/markup-tables/MarkupTables.vue'),
-            meta: {
-              wikiLink: 'https://github.com/epicmaxco/vuestic-admin/wiki/Tables',
-            },
-          },
-        ]
-      },
-      {
-        name: 'tables2',
-        path: 'tables2',
-        component: RouteViewComponent,
-        children: [
-          {
-            name: 'markup2',
-            path: 'markup2',
-            component: () => import('@/pages/admin/tables/markup-tables/MarkupTables.vue'),
-          },
-          {
-            name: 'markup3',
-            path: 'markup3',
-            component: () => import('@/pages/admin/tables/markup-tables/MarkupTables.vue'),
-          },
-        ]
+        name: 'table',
+        path: 'table',
+        component: () => import('@/pages/admin/tables/tables.vue')
+      }, {
+        name: 'table2',
+        path: 'table2',
+        component: () => import('@/pages/admin/tables/tables.vue')
       }
     ]
   }

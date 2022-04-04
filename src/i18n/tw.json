@@ -138,12 +138,7 @@
     "statistics": "統計",
     "tables": "表格",
     "markupTables": "標記資料",
-    "tags": "標籤",
-    "typography": "段落",
-    "treeView": "樹視圖",
-    "dateTimePickers": "日期時間選擇器",
-    "fileUpload": "文件上傳",
-    "chat": "聊天"
+    "tags": "標籤"
   },
   "messages": {
     "all": "查看全部消息",
