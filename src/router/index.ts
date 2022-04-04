@@ -29,11 +29,11 @@ const routes: Array<RouteRecordRaw> = [
       {
         name: 'table',
         path: 'table',
-        component: () => import('@/pages/admin/tables/tables.vue')
+        component: () => import('@/pages/tables/tables.vue')
       }, {
         name: 'table2',
         path: 'table2',
-        component: () => import('@/pages/admin/tables/tables.vue')
+        component: () => import('@/pages/tables/tables.vue')
       }
     ]
   }
