@@ -31,6 +31,16 @@ const routes: Array<RouteRecordRaw> = [
             meta: {
               wikiLink: 'https://github.com/epicmaxco/vuestic-admin/wiki/Tables',
             },
+            children: [
+              {
+                name: 'markup',
+                path: 'markup',
+                component: () => import('@/pages/admin/tables/markup-tables/MarkupTables.vue'),
+                meta: {
+                  wikiLink: 'https://github.com/epicmaxco/vuestic-admin/wiki/Tables',
+                },
+              },
+            ]
           },
         ]
       }

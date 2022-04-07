@@ -22,6 +22,12 @@ export default {
         {
           name: 'markup',
           displayName: 'menu.markupTables',
+          children: [
+            {
+              name: 'markup',
+              displayName: 'menu.markupTables',
+            },
+          ],
         },
       ],
     },

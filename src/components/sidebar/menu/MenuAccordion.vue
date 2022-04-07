@@ -14,6 +14,7 @@
           </va-sidebar-item-content>
         </va-sidebar-item>
       </template>
+
       <template v-for="(child, index) in route.children" :key="index">
         <va-sidebar-item :active="isRouteActive(child)" :to="{ name: child.name }">
           <va-sidebar-item-content>
@@ -22,9 +23,23 @@
             <va-sidebar-item-title>
               {{ $t(child.displayName) }}
             </va-sidebar-item-title>
+            <!-- <va-icon v-if="child.children" :name="accordionValue[index] ? 'expand_less' : 'expand_more'" /> -->
           </va-sidebar-item-content>
         </va-sidebar-item>
       </template>
+
+      <!-- <template v-for="(kids, kidx) in child.children" :key="kidx">
+        <va-sidebar-item :active="isRouteActive(kids)" :to="{ name: kids.name }">
+          <va-sidebar-item-content>
+            <div class="va-sidebar-item__icon"/>
+
+            <va-sidebar-item-title>
+              {{ $t(kids.displayName) }}
+            </va-sidebar-item-title>
+          </va-sidebar-item-content>
+        </va-sidebar-item>
+      </template> -->
+
     </va-collapse>
   </va-accordion>
 </template>
