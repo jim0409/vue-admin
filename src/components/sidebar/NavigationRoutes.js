@@ -10,6 +10,7 @@ export default {
       meta: {
         icon: 'vuestic-iconset-dashboard',
       },
+      children: []
     },
     // 要增加新的 side bar 項目，從這邊下手~
     {
@@ -23,6 +24,10 @@ export default {
           name: 'markup',
           displayName: 'menu.markupTables',
           children: [
+            {
+              name: 'markup',
+              displayName: 'menu.markupTables',
+            },
             {
               name: 'markup',
               displayName: 'menu.markupTables',

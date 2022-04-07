@@ -22,24 +22,23 @@
 
             <va-sidebar-item-title>
               {{ $t(child.displayName) }}
+
             </va-sidebar-item-title>
             <va-icon v-if="child.children" :name="accordionValue[index] ? 'expand_less' : 'expand_more'" />
           </va-sidebar-item-content>
         </va-sidebar-item>
+        <va-collapse v-for="(kids, kidx) in child.children" :key="kidx">
+          <va-sidebar-item :active="isRouteActive(kids)" :to="{ name: kids.name }">
+            <va-sidebar-item-content>
+              <div class="va-sidebar-item__icon"/>
+  
+              <va-sidebar-item-title>
+                {{ $t(kids.displayName) }}
+              </va-sidebar-item-title>
+            </va-sidebar-item-content>
+          </va-sidebar-item>
+        </va-collapse>
       </template>
-
-      <!-- change route.children to child.children would cause error -->
-      <!-- <template v-for="(kids, kidx) in child.children" :key="kidx">
-        <va-sidebar-item :active="isRouteActive(kids)" :to="{ name: kids.name }">
-          <va-sidebar-item-content>
-            <div class="va-sidebar-item__icon"/>
-
-            <va-sidebar-item-title>
-              {{ $t(kids.displayName) }}
-            </va-sidebar-item-title>
-          </va-sidebar-item-content>
-        </va-sidebar-item>
-      </template> -->
 
     </va-collapse>
   </va-accordion>
