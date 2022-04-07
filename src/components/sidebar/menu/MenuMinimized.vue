@@ -24,10 +24,23 @@
           <va-sidebar-item-content>
             <va-sidebar-item-title>
               {{ $t(child.displayName) }}
-            </va-sidebar-item-title>            
+            </va-sidebar-item-title>
+            <va-icon v-if="route.children" class="more_icon" :name="dropdownsValue[index] ? 'chevron_left' : 'chevron_right'"/>          
           </va-sidebar-item-content>
         </va-sidebar-item>
       </template>
+
+      <!-- change route.children to child.children would cause error -->
+      <!-- <template v-for="(kids, kidx) in child.children" :key="kidx">
+        <va-sidebar-item :active="isRouteActive(kids)" :to="{ name: kids.name }">
+          <va-sidebar-item-content>
+            <va-sidebar-item-title>
+              {{ $t(kids.displayName) }}
+            </va-sidebar-item-title>
+          </va-sidebar-item-content>
+        </va-sidebar-item>
+      </template>-->
+
     </div>
   </va-dropdown>
 </template>
